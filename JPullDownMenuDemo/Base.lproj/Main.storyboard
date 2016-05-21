@@ -35,7 +35,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YdI-Xg-jiH">
-                        <barButtonItem key="rightBarButtonItem" title="ReLoad" id="eo3-do-wFe">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="eo3-do-wFe">
                             <connections>
                                 <action selector="changeData:" destination="BYZ-38-t0r" id="MCh-eb-fIz"/>
                             </connections>
