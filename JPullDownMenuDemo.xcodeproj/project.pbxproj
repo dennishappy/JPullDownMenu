@@ -14,6 +14,7 @@
 		8B2A240E1CE30BC200615612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A240D1CE30BC200615612 /* Assets.xcassets */; };
 		8B2A24111CE30BC200615612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A240F1CE30BC200615612 /* LaunchScreen.storyboard */; };
 		8BF58E431CF04BA500DEBF88 /* JPullDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF58E421CF04BA500DEBF88 /* JPullDownMenu.m */; };
+		8BF58E451CF08ACA00DEBF88 /* JPullDownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BF58E441CF08ACA00DEBF88 /* JPullDownMenu.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8B2A24121CE30BC200615612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF58E411CF04BA500DEBF88 /* JPullDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPullDownMenu.h; sourceTree = "<group>"; };
 		8BF58E421CF04BA500DEBF88 /* JPullDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPullDownMenu.m; sourceTree = "<group>"; };
+		8BF58E441CF08ACA00DEBF88 /* JPullDownMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JPullDownMenu.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				8BF58E411CF04BA500DEBF88 /* JPullDownMenu.h */,
 				8BF58E421CF04BA500DEBF88 /* JPullDownMenu.m */,
+				8BF58E441CF08ACA00DEBF88 /* JPullDownMenu.bundle */,
 			);
 			path = JPullDownMenu;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF58E451CF08ACA00DEBF88 /* JPullDownMenu.bundle in Resources */,
 				8B2A24111CE30BC200615612 /* LaunchScreen.storyboard in Resources */,
 				8B2A240E1CE30BC200615612 /* Assets.xcassets in Resources */,
 				8B2A240C1CE30BC200615612 /* Main.storyboard in Resources */,
