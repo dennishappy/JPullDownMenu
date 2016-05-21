@@ -74,7 +74,7 @@
 -(void)configBaseInfo
 {
     
-    self.backgroundColor=KmaskBackGroundViewColor;
+    //    self.backgroundColor=KmaskBackGroundViewColor;
     
     //用于遮盖self.backgroundColor 。
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, Kscreen_width, KTitleButtonHeight)];
@@ -89,7 +89,7 @@
         
         titleButton.frame= CGRectMake((width+0.5) * index, 0, width-0.5, KTitleButtonHeight);
         titleButton.backgroundColor =KDefaultColor;
-        [titleButton setTitle:[NSString stringWithFormat:@"%@",self.titleArray[index]] forState:UIControlStateNormal];
+        [titleButton setTitle:self.titleArray[index] forState:UIControlStateNormal];
         [titleButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         titleButton.tag =KTitleButtonTag + index ;
         [titleButton addTarget:self action:@selector(titleButtonClick:) forControlEvents:UIControlEventTouchUpInside];
@@ -163,7 +163,7 @@
     downMenuCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     cell.isSelected = YES;
     
-    [self.tempButton setTitle:[NSString stringWithFormat:@" %@",cell.textLabel.text] forState:UIControlStateNormal];
+    [self.tempButton setTitle:cell.textLabel.text forState:UIControlStateNormal];
     
     KOBJCSetObject(self.tempButton, cell.textLabel.text);
     
