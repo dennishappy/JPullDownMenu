@@ -21,8 +21,6 @@
 #define KmaskBackGroundViewColor  [UIColor colorWithRed:40/255 green:40/255 blue:40/255 alpha:.2]
 #define kCellBgColor [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:.7]
 
-#define KTableViewCell @"downMenuCell"
-
 #define KTableViewCellHeight 40
 
 #define KDisplayMaxCellOfNumber  5
@@ -95,8 +93,8 @@
         [titleButton addTarget:self action:@selector(titleButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         titleButton.titleLabel.font = [UIFont systemFontOfSize:15];
         [titleButton setTitleColor:[[UIColor blackColor]colorWithAlphaComponent:0.3] forState:UIControlStateSelected];
-        [titleButton setImage:[UIImage imageNamed:@"JPullDownMenu.bundle/jiantou_up"] forState:UIControlStateNormal];
-        [titleButton setImage:[UIImage imageNamed:@"JPullDownMenu.bundle/jiantou_down"] forState:UIControlStateSelected];
+        [titleButton setImage:[UIImage imageNamed:@"JPullDown.bundle/jiantou_up"] forState:UIControlStateNormal];
+        [titleButton setImage:[UIImage imageNamed:@"JPullDown.bundle/jiantou_down"] forState:UIControlStateSelected];
         titleButton.imageEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
         
         [self addSubview:titleButton];
@@ -405,7 +403,7 @@
         return _selectImageView;
     }
     
-    UIImage *image = [UIImage imageNamed:@"JPullDownMenu.bundle/ok"];
+    UIImage *image = [UIImage imageNamed:@"JPullDown.bundle/ok"];
     self.selectImageView = [[UIImageView alloc]init];
     self.selectImageView.image=image;
     
