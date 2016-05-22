@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
    s.source       = { :git => "https://github.com/jinxiansen/JPullDownMenu.git", :tag => s.version }
    s.platform     = :ios, '8.0'
    s.source_files = "JPullDownMenuDemo/JPullDownMenu/*.{h,m}"
-   s.resources  = "JPullDownMenuDemo/JPullDownMenu/JPullDownMenu.bundle"
+   s.resources  = "JPullDownMenuDemo/JPullDownMenu/*.{bundle,png}"
    s.requires_arc = true
  end
