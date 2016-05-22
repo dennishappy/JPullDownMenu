@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
    s.name         = "JPullDownMenu"
-   s.version      = "0.2.0"
+   s.version      = "0.2.1"
    s.summary      = "This is a library of the drop-down menu (OC)."
    s.homepage     = "https://github.com/jinxiansen/JPullDownMenu" 
    s.license      = 'MIT (LICENSE)'
